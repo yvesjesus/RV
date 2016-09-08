@@ -1,6 +1,6 @@
 var cuboGris= new THREE.BoxGeometry(100,100, 100);
 
-var cuboMalla= new THREE.Mesh(troncoForma);
+var cuboMalla= new THREE.Mesh(cuboGris);
 
 var tablero= new THREE.Geometry();
 
