@@ -3,12 +3,11 @@ var cuboMalla= new THREE.Mesh(cuboGris);
 
 cuboMalla.translate(5,5,5);
 
-
 var tablero= new THREE.Geometry();
 
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
-cuboMalla.translate(25,25,25);
+cuboMalla.translate(15,15,15);
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
 
