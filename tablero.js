@@ -21,7 +21,7 @@ escena.add(tableroMalla);
 
 var camara= new THREE.PerspectiveCamera();
 var centro = new THREE.Vector3( 5, 10, 5 );
-camara.lookAt()
+camara.lookAt(centro);
 camara.position.z=1000;
 camara.position.x=1000;
 var renderizador= new THREE.WebGLRenderer();
