@@ -1,6 +1,6 @@
 //var cubo = new THREE.Mesh(new THREE.BoxGeometry(10,10,10),new THREE.MeshNormalMaterial("#0f0f0f") );
 var cuboGris= new THREE.BoxGeometry(10,10,10);
-var cuboMalla= new THREE.Mesh(cuboGris);
+var cuboMalla= new THREE.Mesh(cuboGris,new THREE.MeshNormalMaterial("#0f0f0f"));
 cuboMalla.translate(5,5,5);
 
 var tablero= new THREE.Geometry();
