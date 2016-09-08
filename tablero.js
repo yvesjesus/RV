@@ -1,10 +1,12 @@
-var cuboGris= new THREE.BoxGeometry(10,10, 10);
+var cuboGris= new THREE.BoxGeometry(0.1,0.1, 0.1);
 
 var cuboMalla= new THREE.Mesh(cuboGris);
 
 var tablero= new THREE.Geometry();
 
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
+
+
 var material= new THREE.MeshNormalMaterial();
 
 var tableroMalla= new THREE.Mesh(tablero, material);
