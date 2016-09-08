@@ -1,3 +1,4 @@
+//var cubo = new THREE.Mesh(new THREE.BoxGeometry(10,10,10),new THREE.MeshNormalMaterial("#0f0f0f") );
 var cuboGris= new THREE.BoxGeometry(10,10,10);
 var cuboMalla= new THREE.Mesh(cuboGris);
 cuboMalla.translate(5,5,5);
@@ -5,10 +6,10 @@ cuboMalla.translate(5,5,5);
 var tablero= new THREE.Geometry();
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
-var cuboGris= new THREE.BoxGeometry(10,10,10);
-var cuboMalla= new THREE.Mesh(cuboGris);
-cuboMalla.translate(15,15,15);
-tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
+var cuboMalla2= new THREE.Mesh(cuboGris);
+cuboMalla2.translate(15,15,15);
+
+tablero.merge(cuboMalla2.geometry, cuboMalla2.matrix);
 
 
 var material= new THREE.MeshNormalMaterial();
