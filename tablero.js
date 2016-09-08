@@ -8,7 +8,7 @@ var tablero= new THREE.Geometry();
 
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
-cuboMalla.translate(25,20,5);
+cuboMalla.translate(25,25,25);
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
 
@@ -22,7 +22,7 @@ escena.add(tableroMalla);
 var camara= new THREE.PerspectiveCamera();
 var centro = new THREE.Vector3( 5, 10, 5 );
 //camara.lookAt(centro);
-camara.position.z=500;
+camara.position.z=300;
 //camara.position.x=1000;
 var renderizador= new THREE.WebGLRenderer();
 renderizador.setSize(window.innerHeight*0.95, window.innerHeight*0.95);
