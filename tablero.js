@@ -1,4 +1,4 @@
-var cuboGris= new THREE.BoxGeometry(100,100, 100);
+var cuboGris= new THREE.BoxGeometry(10,10, 10);
 
 var cuboMalla= new THREE.Mesh(cuboGris);
 
