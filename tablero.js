@@ -8,7 +8,7 @@ var tablero= new THREE.Geometry();
 
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
-cuboMalla.translate(5,20,5);
+cuboMalla.translate(25,20,5);
 tablero.merge(cuboMalla.geometry, cuboMalla.matrix);
 
 
